@@ -9,7 +9,7 @@
 		<meta name="author" content="">
 
 		<title><?php echo $this->config->item('site_name')?> - Users</title>
-
+		<link rel="shortcut icon" href="<?php echo site_url('assets/imag/favicon.jpg')?>">
 		<!-- Load CSS -->
 		<?php $this->view('dashboard/_css')?>
 
@@ -50,6 +50,7 @@
 												<th style="width:60px">#</th>
 												<th>Username</th>
 												<th>Email</th>
+												<th>Skills</th>
 												<th style="width:100px;text-align:center">Status</th>
 												<th style="width:150px;text-align:center">Action</th>
 											</tr>
@@ -60,6 +61,7 @@
 												<td><?php echo ++$row;?></td>
 												<td><?php echo $user->username?></td>
 												<td><?php echo $user->email?></td>
+												<td><?php echo $user->skills?></td>
 												<td style="text-align:center"><?php echo ($user->active == 1 ? 'Active' : 'Inactive')?></td>
 												<td style="text-align:center">
 													<a class="btn btn-primary btn-xs" href="<?php echo site_url('dashboard/users').'/'.$user->id.'/edit'?>">

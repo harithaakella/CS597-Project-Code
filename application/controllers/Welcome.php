@@ -26,6 +26,7 @@ class Welcome extends CI_Controller {
 		$this->load->view('front/index', $data);
 	}
 	
+	
 	public function about()
 	{
 		$data = [
@@ -34,6 +35,7 @@ class Welcome extends CI_Controller {
 		$this->load->view('front/about', $data);
 	}
 	
+
 	public function blog()
 	{
 		$this->load->model('post');

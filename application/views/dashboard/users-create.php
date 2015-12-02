@@ -9,7 +9,7 @@
 		<meta name="author" content="">
 
 		<title><?php echo $this->config->item('site_name')?> - Add new user</title>
-
+		<link rel="shortcut icon" href="<?php echo site_url('assets/imag/favicon.jpg')?>">
 		<!-- Load CSS -->
 		<?php $this->view('dashboard/_css')?>
 
@@ -39,16 +39,25 @@
 								<input class="form-control" type="text" name="username" value="<?php echo set_value('username'); ?>" placeholder="E.g. Haritha">
 								<p class="help-block"><?php echo form_error('username'); ?></p>
 							</div>
+			
 							<div class="form-group">
 								<label>E-mail</label>
 								<input class="form-control" type="text" name="email" value="<?php echo set_value('email'); ?>" placeholder="E.g. your@email.com">
 								<p class="help-block"><?php echo form_error('email'); ?></p>
 							</div>
+							
 							<div class="form-group">
 								<label>Password</label>
 								<input class="form-control" type="password" name="password" placeholder="Your password">
 								<p class="help-block"><?php echo form_error('password'); ?></p>
 							</div>
+							
+								<div class="form-group">
+								<label>Skills</label>
+								<input class="form-control" type="text" name="skills" value="<?php echo set_value('skills'); ?>" placeholder="	skills imported from linkedIn">
+								<p class="help-block"><?php echo form_error('skills'); ?></p>
+							</div>
+							
 							<button type="submit" class="btn btn-primary">Submit</button>						
 						<?php echo form_close()?>
 					</div>

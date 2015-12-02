@@ -9,7 +9,7 @@
 		<meta name="author" content="">
 
 		<title><?php echo $this->config->item('site_name')?> - Posts</title>
-
+		<link rel="shortcut icon" href="<?php echo site_url('assets/imag/favicon.jpg')?>">
 		<!-- Load CSS -->
 		<?php $this->view('dashboard/_css')?>
 
