@@ -8,7 +8,7 @@
 	
 	<title><?php echo $this->config->item('site_name')?> - Blog</title>
 
-	<link rel="shortcut icon" href="<?php echo site_url('assets/img/gt_favicon.png')?>">
+	<link rel="shortcut icon" href="<?php echo site_url('assets/imag/favicon.jpg')?>">
 	
 	<?php $this->view('front/_css')?>
 	
@@ -18,9 +18,10 @@
 <header id="header">
 	<div id="head" class="parallax" parallax-speed="1">
 		<h1 id="logo" class="text-center">
-			<img class="img-circle" src="<?php echo site_url('assets/img/mb.jpg')?>" alt="">
-			<span class="title">Posts Below...</span>
-			
+			<img class="img-circle" src="<?php echo site_url('assets/imag/blog.jpg')?>" alt="">
+			<span class="title">Kishtha Employee Posts...</span>
+			<span class="tagline">We actually “listen” to our employees!<br>
+				<a href="">Connect now: admin@kishtha.com</a></spa
 		</h1>
 	</div>
 
@@ -60,7 +61,10 @@
 			<?php echo $links; ?>
 		</div>
 
+		
 	</div>	<!-- /container -->
+	
+	
 
 </main>
 

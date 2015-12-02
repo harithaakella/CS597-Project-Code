@@ -8,7 +8,7 @@
 	
 	<title><?php echo $this->config->item('site_name')?> - Haritha</title>
 
-	<link rel="shortcut icon" href="<?php echo site_url('assets/img/gt_favicon.png')?>">
+	<link rel="shortcut icon" href="<?php echo site_url('assets/imag/favicon.jpg')?>">
 	
 	<?php $this->view('front/_css')?>
 	
@@ -18,10 +18,10 @@
 <header id="header">
 	<div id="head" class="parallax" parallax-speed="2">
 		<h1 id="logo" class="text-center">
-			<img class="img-circle" src="<?php echo site_url('assets/img/girl.jpg')?>" alt="">
-			<span class="title">Welcome</span>
-			<span class="tagline">To my blog...<br>
-				<a href="">harithaakella@boisestate.edu</a></span>
+			<img class="img-circle" src="<?php echo site_url('assets/imag/emp.jpg')?>" alt="">
+			<span class="title">Kishtha Inc</span>
+			<span class="tagline">The application economy is here. Is your business ready?<br>
+				<a href>Connect now: admin@kishtha.com</a></span>
 		</h1>
 	</div>
 
@@ -39,62 +39,57 @@
 			</div>
 		</div> <!-- / section -->
 		
+		<div class="row section topspace">
+			<div class="panel panel-cta"><div class="panel-body">
+				<div class="col-lg-8">
+					<p>You are logged in through linkedIn profile! <b>Wanna Logout?</b> </p>
+				</div>
+				<div class="col-lg-4 text-right">
+					<a href="https://localhost/my_new_blog/login.php" class="btn btn-primary btn-lg">Logout from LinkedIn</a>
+				</div>
+			</div></div>
+		</div> <!-- /section -->
+		
 		<div class="row section featured topspace">
 			<h2 class="section-title"><span>DESCRIPTION</span></h2>
 			<div class="row">
 				<div class="col-sm-6 col-md-3">
-					<h3 class="text-center">HOME</h3>
-					<p>Hi everyone , I have three interesting hobbies! Firstly watching <b>NEWS </B>. <br>
-					Secondly building <b>Mobile Apps </b> , Last but not the least , writing <b>blogs</b>. I have my favorite fields of interest on which i write blogs. Have mentioned in this page about the same.
-					Please scroll below for the details of the same.</p>
-					<p class="text-center"><a href="https://localhost/my_new_blog/" class="btn btn-action">Read more</a></p>
+					<h3 class="text-center">Kishtha DEV CENTER</h3>
+					<p>Develop high quality applications faster by leveraging tools that create virtual integrations, enable parallel development and continuous testing. The Kishtha Devcenter portfolio has the tools to deliver innovation to market faster with higher quality..</p>
+					<p class="text-center"><a href="http://localhost/my_new_blog/" class="btn btn-action">Read more</a></p>
 				</div>
 				<div class="col-sm-6 col-md-3">
-					<h3 class="text-center">ABOUT</h3>
-					<p>Please click on the About Tab , to know more about me!<br> Am a fun loving girl with interest in extra curricular activities!<br> Am married to Kishore Bhagavatula , love of my life an year back!
-					<br>I have lots of interest in blogging and my fields of interest on which i write blogs.</p>
+					<h3 class="text-center">Kishtha Intellicenter</h3>
+					<p>This is the strategic engine for businesses looking to thrive in the application economy. The Kishtha Intellicenter portfolio has the software —enabling your business to manage the business of IT.make the right portfolio decisions </p>
 					
-					<p class="text-center"><a href="https://localhost/my_new_blog/about" class="btn btn-action">Read more</a></p>
+					<p class="text-center"><a href="http://localhost/my_new_blog/" class="btn btn-action">Read more</a></p>
 				</div>
 				<div class="col-sm-6 col-md-3">
-					<h3 class="text-center">BLOG</h3>
-					<p> Please visit my blogs page , to view all my interesting blogs. Hope you all enjoy them!<br> It has blogs from various fields , like woman empowerment , environment - as am a great naure lover! 
-					<br>PLease let me know your views on the comments and if you like my blogs.</p>
-					<p class="text-center"><a href="https://localhost/my_new_blog/blog" class="btn btn-action">Read more</a></p>
+					<h3 class="text-center">KISHTHA OPSCENTER</h3>
+					<p> Deliver enterprise class customer experience and operational efficiency by utilizing 360-degree visibility of systems and infrastructure performance. The Kishtha Opscenter portfolio provides tools that manage and monitor performance and availability.</p>
+					<p class="text-center"><a href="http://localhost/my_new_blog/" class="btn btn-action">Read more</a></p>
 				</div>
 				<div class="col-sm-6 col-md-3">
-					<h3 class="text-center">DASHBOARD</h3>
-					<p>It is dashboard view for the admin.<br> I login here to find all the comments that I have received and the number of views and blogs time stamps historical data.
-					<br> This is a very useful tool for me.
-					<br> I very regularly check my dashboard to analyse the views of majority of people who are my recent bloggers.</p>
-					<p class="text-center"><a href="https://localhost/my_new_blog/dashboard" class="btn btn-action">Read more</a></p>
+					<h3 class="text-center">Kishtha securecenter</h3>
+					<p>"Enable and protect the open enterprise" is the mantra of today’s application economy and identity is the new security perimeter. The kishtha Securecenter portfolio enables the open enterprise on any device,providing a superior customer experience.</p>
+					<p class="text-center"><a href="http://localhost/my_new_blog/" class="btn btn-action">Read more</a></p>
 				</div>
 			</div>
 		</div> <!-- / section -->
 		
-		<div class="row section clients topspace">
-			<h2 class="section-title"><span>BLOG TOPICS</span></h2>
-			<div class="col-lg-12">
-				<p>
-					<img src="<?php echo site_url('assets/img/browser_types.jpg')?>" alt="">
-					
-				</p>
-			</div>
-		</div> <!-- /section -->
-		
 		<div class="blogs items">
 			
-			<h2 class="section-title"><span>BLOGS</span></h2>
+			<h2 class="section-title"><span>Kishtha - Core Values</span></h2>
 			
 			<div class="thumbnails recentworks row">
 				
 				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-					<a class="thumbnail" href="https://localhost/my_new_blog/blog">
+					<a class="thumbnail" href="http://localhost/my_new_blog/about">
 						<span class="img">
-							<img src="<?php echo site_url('assets/img/me.jpg')?>" alt="">
+							<img src="<?php echo site_url('assets/imag/wl.jpg')?>" alt="">
 							<span class="cover"><span class="more">See details &rarr;</span></span>
 						</span>
-						<span class="title">WANNA KNOW ABOUT ME?</span>
+						<span class="title">Work Life balance</span>
 					</a>
 			
 					<h4></h4>
@@ -102,12 +97,12 @@
 				</div>
 				
 				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-					<a class="thumbnail" href="https://localhost/my_new_blog/blog">
+					<a class="thumbnail" href="http://localhost/my_new_blog/about">
 						<span class="img">
-							<img src="<?php echo site_url('assets/img/nature.jpg')?>" alt="">
+							<img src="<?php echo site_url('assets/imag/agility.jpg')?>" alt="">
 							<span class="cover"><span class="more">See details &rarr;</span></span>
 						</span>
-						<span class="title">NATURE</span>
+						<span class="title">Agility</span>
 					</a>
 				
 					<h4></h4>
@@ -115,38 +110,12 @@
 				</div>
 				
 						<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-					<a class="thumbnail" href="https://localhost/my_new_blog/blog">
+					<a class="thumbnail" href="http://localhost/my_new_blog/about">
 						<span class="img">
-							<img src="<?php echo site_url('assets/img/car.jpg')?>" alt="">
+							<img src="<?php echo site_url('assets/imag/respect.png')?>" alt="">
 							<span class="cover"><span class="more">See details &rarr;</span></span>
 						</span>
-						<span class="title">BIG DATA</span>
-					</a>
-					
-					<h4></h4>
-					<p></p>
-				</div>
-				
-				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-					<a class="thumbnail" href="https://localhost/my_new_blog/blog">
-						<span class="img">
-							<img src="<?php echo site_url('assets/img/pop.jpg')?>" alt="">
-							<span class="cover"><span class="more">See details &rarr;</span></span>
-						</span>
-						<span class="title">POPULAR BLOG</span>
-					</a>
-					
-					<h4></h4>
-					<p></p>
-				</div>
-				
-				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-					<a class="thumbnail" href="https://localhost/my_new_blog/blog">
-						<span class="img">
-							<img src="<?php echo site_url('assets/img/empower.jpg')?>" alt="">
-							<span class="cover"><span class="more">See details &rarr;</span></span>
-						</span>
-						<span class="title">WOMAN EMPOWERMENT</span>
+						<span class="title">Respect for people</span>
 					</a>
 					
 					<h4></h4>
@@ -155,6 +124,15 @@
 
 			</div>
 			</div> <!-- /section -->
+			<div class="row section clients topspace">
+			<h2 class="section-title"><span>BLOG TOPICS</span></h2>
+			<div class="col-lg-12">
+				<p>
+					<img src="<?php echo site_url('assets/img/browser_types.jpg')?>" alt="">
+					
+				</p>
+			</div>
+		</div> <!-- /section -->
 			
 			<div class="news items">
 			
@@ -163,7 +141,7 @@
 			<div class="thumbnails recentworks row">
 				
 				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-					<a class="thumbnail" href="https://localhost/my_new_blog/blog">
+					<a class="thumbnail" href="https://hakella.com/blog">
 						<span class="img">
 							<img src="<?php echo site_url('assets/img/pop.jpg')?>" alt="">
 							<span class="cover"><span class="more">See details &rarr;</span></span>
@@ -178,7 +156,7 @@
 			
 			
 						<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-					<a class="thumbnail" href="https://localhost/my_new_blog/blog">
+					<a class="thumbnail" href="https://hakella.com/blog">
 						<span class="img">
 							<img src="<?php echo site_url('assets/img/car.jpg')?>" alt="">
 							<span class="cover"><span class="more">See details &rarr;</span></span>
@@ -200,7 +178,7 @@
 			<div class="thumbnails recentworks row">
 				
 				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-					<a class="thumbnail" href="https://www.ibnlive.com/blog/">
+					<a class="thumbnail" href="http://www.ibnlive.com/blog/">
 						<span class="img">
 							<img src="<?php echo site_url('assets/img/cnnibn.jpg')?>" alt="">
 							<span class="cover"><span class="more">See details &rarr;</span></span>
@@ -213,7 +191,7 @@
 				</div>
 				
 				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-					<a class="thumbnail" href="https://www.foxnews.com/">
+					<a class="thumbnail" href="http://www.foxnews.com/">
 						<span class="img">
 							<img src="<?php echo site_url('assets/img/fox.jpg')?>" alt="">
 							<span class="cover"><span class="more">See details &rarr;</span></span>
@@ -242,16 +220,17 @@
 
 		</div> <!-- /section -->
 
-		<div class="row section topspace">
+		<!--<div class="row section topspace">
 			<div class="panel panel-cta"><div class="panel-body">
 				<div class="col-lg-8">
 					<p>A simple, easy way to build <b>Mobile Apps</b> which has support on various browsers mentioned below. </p>
 				</div>
 				<div class="col-lg-4 text-right">
-					<a href="https://www.como.com/" class="btn btn-primary btn-lg">Conduit Platform</a>
+					<a href="http://www.como.com/" class="btn btn-primary btn-lg">Conduit Platform</a>
 				</div>
 			</div></div>
-		</div> <!-- /section -->
+		</div>  <!-- /section -->
+		
 
 		
 
@@ -330,6 +309,17 @@
 
 
 <?php $this->view('front/_js')?>
+<script type='text/javascript'>
+//<![CDATA[
+function nocontext(e) {
+var clickedTag = (e==null) ? event.srcElement.tagName : e.target.tagName;
+if (clickedTag == "IMG") {
+return false;
+}
+}
+document.oncontextmenu = nocontext;
+//]]>
+</script>
 
 </body>
 </html>

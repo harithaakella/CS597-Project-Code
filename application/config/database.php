@@ -64,14 +64,14 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
+        'hostname' => 'localhost',
 	'username' => 'root',
 	'password' => '',
 	'database' => 'my_new_blog',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
-	'db_debug' => TRUE,
+	'db_debug' => FALSE,
 	'cache_on' => FALSE,
 	'cachedir' => '',
 	'char_set' => 'utf8',
@@ -112,4 +112,3 @@ $capsule->setAsGlobal();
 
 // Setup the Eloquent ORM
 $capsule->bootEloquent();
-

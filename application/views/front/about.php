@@ -8,7 +8,7 @@
 	
 	<title><?php echo $this->config->item('site_name')?> - About</title>
 
-	<link rel="shortcut icon" href="<?php echo site_url('assets/img/gt_favicon.png')?>">
+	<link rel="shortcut icon" href="<?php echo site_url('assets/imag/favicon.jpg')?>">
 	
 	<?php $this->view('front/_css')?>
 	
@@ -18,10 +18,10 @@
 <header id="header">
 	<div id="head" class="parallax" parallax-speed="2">
 		<h1 id="logo" class="text-center">
-			<img class="img-circle" src="<?php echo site_url('assets/img/gal.jpg')?>" alt="">
-			<span class="title">Haritha</span>
-			<span class="tagline">Those who like me raise your hands , Others? - Raise your standards! .</span>
-				
+			<img class="img-circle" src="<?php echo site_url('assets/imag/emp.jpg')?>" alt="">
+			<span class="title">About Kishtha Inc </span>
+			<span class="tagline">KISHTHA software drives competitive advantage in the application economy.<br>
+				<a href="">Connect now: admin@kishtha.com</a></span>
 		</h1>
 	</div>
 
@@ -39,10 +39,21 @@
 			<aside class="col-sm-4 sidebar sidebar-right">
 
 				<ul class="nav text-right nav-side">
-					<li class="active"><a href="#ui">BSU Graduate Assistant</a></li>
-					<li><a href="#frontend">Passionate for Web Development</a></li>
-					<li><a href="#backend">Worked at Computer Associates.Inc</a></li>
-					<li><a href="#projects">Loves Dancing</a></li>
+					<li class="active"><a href="#platform">Products by Platform
+</a></li>
+					<li><a href="#platform1">Cloud
+</a></li>
+					<li><a href="#platform2">Mainframe
+</a></li>
+					<li><a href="#platform3">Mobile</a></li>
+					
+					<li><a href="#coreval">Kishtha Core values</a></li>
+					
+					<li><a href="#cv1">work life balance</a></li>
+					
+					<li><a href="#cv1">agility</a></li>
+					
+					<li><a href="#cv1">respect for people</a></li>
 				</ul>
 
 			</aside>
@@ -50,21 +61,48 @@
 
 			<!-- Article main content -->
 			<article class="col-sm-8 maincontent">
-				<p>This is a sample BLOG created by me for enterprise web development class</p>
+				<p>Below are the products by platform</p>
 				
 				
-				<h3>About Me</h3>
-				<p><img src="<?php echo site_url('assets/img/cp.jpg')?>" alt="" class="" width="30%" ></p>
-				<p><blue>I am Haritha working as a <b>graduate assistant</b> at Boise state university.
-				I have a lot of<b> passion for Web development</b> since my schooling..!! If you love coding , web development , please follow my blogs and comment.I love interactive community of coders.
-				I <b>worked at Computer Associates</b> as a associate platform administrator for 18 months after which I met Kishore , love of my life and moved to Texas after getting married on Dec 18!
-				<b>Dancing</b> is my all time favorite hobby..! Classical dance is one of my favorites.
-				
-				</blue></p>
-				<h3>About Class</h3>
-				<p><img src="<?php echo site_url('assets/img/class.jpg')?>" alt="" class="" width="50%" ></p>
-				<p> One of the best classes , I have ever attended! Conrad Kennington is such a cool person. He knows the best of tactics to handle a class of adults.</p>
+				<h3>Cloud</h3>
+				<p><img src="<?php echo site_url('assets/imag/cloud.jpg')?>" alt="" class="" width="30%" ></p>
+				<p>Securely and reliably take advantage of the cloud with help from Kishtha Inc.<br>With the proliferation of enterprise-grade cloud services, the allure of using cloud computing to bridge the gap between your business needs and what you can build on premise is strong. As with any platform, the cloud presents its own set of challenges related to security, availability, performance, compliance, integration, purchasing, visibility, automation and insight</p>
+				<div class="row section topspace">
+			<div class="panel panel-cta"><div class="panel-body">
+				<div class="col-lg-8">
+					<p>A simple, easy way to have access to <b>Cloud services</b> which has support with AWS clouds. </p>
+				</div>
+				<div class="col-lg-4 text-right">
+					<a href="https://www.google.com/aclk?sa=l&ai=CKeRjRm06VvKfEZKN-gO79KzoAtL9w-wG8qaAm5MCpaGq4WkIABABKANgyabwh-yj2BegAd6jhvkDyAEBqgQmT9Ch31mG-bWhxb2NCDN1y5_JqrH_qYrXi51tSr7_3DQb-8i1XL2AB4rc-QaIBwGQBwKoB6a-G9gHAQ&sig=AOD64_0EVUlj_89kUXd7golobpvIWdhCJw&clui=0&q=&ved=0CBsQ0QxqFQoTCL6qkq_Q98gCFYtciAodlxEJRQ&adurl=http://pixel.everesttech.net/4422/cq%3Fev_sid%3D3%26ev_ln%3Daws%2520cloud%26ev_lx%3Dkwd-28389839013%26ev_crx%3D73823472162%26ev_mt%3De%26ev_n%3Dg%26ev_ltx%3D%26ev_pl%3D%26ev_pos%3D1t1%26ev_dvc%3Dc%26ev_dvm%3D%26ev_phy%3D9029602%26ev_loc%3D%26url%3Dhttps://aws.amazon.com/free/%253Fsc_channel%253DPS%2526sc_campaign%253Dacquisition_US%2526sc_publisher%253Dgoogle%2526sc_medium%253Dcloud_computing_b%2526sc_content%253Daws_cloud_e%2526sc_detail%253Daws%252520cloud%2526sc_category%253Dcloud_computing%2526sc_segment%253D73823472162%2526sc_matchtype%253De%2526sc_country%253DUS%2526s_kwcid%253DAL!4422!3!73823472162!e!!g!!aws%252520cloud" class="btn btn-primary btn-lg">Kishbha-aws Cloud</a>
+				</div>
+			</div></div>
+		</div> <!-- /section -->
+				<h3>Mainframe</h3>
+				<p><img src="<?php echo site_url('assets/imag/main.jpg')?>" alt="" class="" width="30%" ></p>
+				<p> Powering the Apps That Power the World <br> Mainframe Reframed for the Application Economy
+
+<br>Organizations everywhere are under increasing pressure to innovate, gain competitive advantage and promote business growth by employing new business models and technologies.<br> Moving forward, the most effective organizations will evolve from simply supporting established business processes to continuously driving innovation in the application economy</p>
+			<h3>Mobile</h3>
+				<p><img src="<?php echo site_url('assets/imag/mob.jpg')?>" alt="" class="" width="30%" ></p>
+				<p> App Centric Mobility Management. <br> Accelerate the delivery of secure, quality mobile Apps.<br>To succeed in the vibrant, fast-moving and fiercely competitive application economy, you need an app-savvy partner. Kishtha Inc offers the most comprehensive portfolio of solutions supporting each stage of the mobile application delivery life cycle.<br> The Application Centric Mobility Management solution from Kishtha helps enterprises and stakeholders:
+
+				Secure access to mobile apps, backend APIs and the data itself (end-to-end) across apps, devices and machines without inconveniencing your end-users.
+				Accelerate delivery of quality mobile apps at lower cost and without creating new management and technical silos.
+				Optimize mobile application health, performance and end-user experience, so you can better engage and build customer loyalty for your brand. </p>
+				<p> KISHTHA Core Values</p>
+				<h3>Work Life balance</h3>
+				<p><img src="<?php echo site_url('assets/imag/wl.jpg')?>" alt="" class="" width="30%" ></p>
+				<p> Work–life balance is a concept including proper prioritizing between "work" (career and ambition) and "lifestyle" (health, pleasure, leisure, family and spiritual development/meditation). This is related to the idea of "lifestyle choice."</p>
+				<h3>Agility</h3>
+				<p><img src="<?php echo site_url('assets/imag/agility.jpg')?>" alt="" class="" width="30%" ></p>
+				<p>the power of moving quickly and easily; nimbleness: exercises demanding agility. 2. the ability to think and draw conclusions quickly; intellectual acuity.</p>
+				<h3>Respect for people</h3>
+				<p><img src="<?php echo site_url('assets/imag/respect.png')?>" alt="" class="" width="30%" ></p>
+				<p> what people want – customer demand – providing it will do more harm than good. Defining “Respect for People” fools people into thinking they know what it means. Similarly, defining the “Continuous Improvement” principle will lead to trouble. Simple definitions allow people to become lazy and avoid thinking for themselves.
+
+Defining the “Respect for People” principle puts people on the path of limiting their understanding of what it means.</p>
 			</article>
+			
 			<!-- /Article -->
 			
 
@@ -145,6 +183,17 @@
 
 
 <?php $this->view('front/_js')?>
+<script type='text/javascript'>
+//<![CDATA[
+function nocontext(e) {
+var clickedTag = (e==null) ? event.srcElement.tagName : e.target.tagName;
+if (clickedTag == "IMG") {
+return false;
+}
+}
+document.oncontextmenu = nocontext;
+//]]>
+</script>
 
 </body>
 </html>
