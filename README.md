@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Initio - Free, multipurpose html5 template
 =============
 
@@ -30,3 +31,6 @@ Photos used in the template
 * http://www.publicdomainpictures.net/view-image.php?image=6354
 * http://imcreator.com/free/business/macbook-computer
 * http://unsplush.com
+=======
+# CS597-Project-Code
+>>>>>>> 7a962f3b3fde6ef3ea2675baca1b0dfc5f67a792
